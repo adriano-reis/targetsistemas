@@ -25,7 +25,7 @@ foreach ($array as $arr) {
     array_push($arrayvalores, $arr['valor']);
 }
 
-echo "O menor valor de faturamento ocorrido em um dia do mês (considerando os dias zerados): ";
+echo "O menor valor de faturamento ocorrido em um dia do mês (considerando os dias zerados): "; //Não foi especificado na questão se deveria considerar os dias zerados
 print_r(min($arrayvalores));
 echo "\n";
 
